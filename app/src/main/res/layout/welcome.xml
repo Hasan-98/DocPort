@@ -34,13 +34,14 @@
         android:textAlignment="center"
         android:gravity="center_horizontal"
         />
-        <Button
-            android:layout_width="wrap_content"
-            android:id="@+id/createAccount"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:text="Create a new Account"
-            android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Create a new Account" />
 
     <TextView
         android:layout_width="match_parent"
