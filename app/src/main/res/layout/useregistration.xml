@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Please enter the following details to register"
-        android:textSize="20dp"
+        android:text="Please fill out the following to register:"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
         android:textColor="#FFFF"
         />
 
@@ -136,7 +137,7 @@
             android:text="Gender: "
             android:textColor="#FFFF"
             android:textSize="20dp"
-            android:layout_marginRight="80dp"
+            android:layout_marginRight="37dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             />
@@ -151,16 +152,18 @@
             android:layout_height="wrap_content"
             android:text="Male "
             android:textColor="#FFFF"
-            android:layout_marginRight="55dp"
+            android:layout_marginRight="20dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
             />
+
         <RadioButton
             android:id="@+id/female"
-            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFF"/>
+            android:layout_marginTop="20dp"
+            android:background="#FFFF" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -178,10 +181,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registered As"
+            android:text="Register As"
             android:textColor="#FFFF"
             android:textSize="20dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             />
@@ -196,16 +199,18 @@
             android:layout_height="wrap_content"
             android:text="Patient "
             android:textColor="#FFFF"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="1dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
             />
+
         <RadioButton
             android:id="@+id/Doctor"
-            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFF"/>
+            android:layout_marginTop="20dp"
+            android:background="#FFFF" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -229,6 +234,7 @@
         android:layout_marginTop="20dp"
         />
     <EditText
+        android:focusable="false"
         android:id="@+id/dob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -242,7 +248,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Account"
         android:textAllCaps="false"
