@@ -7,9 +7,9 @@ import android.widget.RadioButton;
 public class User {
     String uName, pwd, email, ph, addr, dob, uid;
     boolean gender, type;
-    Button register;
+//    Button register;
 
-    public User(String uName, String pwd, String email, String ph, String addr, String dob, boolean gender, boolean type, Button register, String uid) {
+    public User(String uName, String pwd, String email, String ph, String addr, String dob, boolean gender, boolean type,/* Button register,*/ String uid) {
         this.uName = uName;
         this.pwd = pwd;
         this.email = email;
@@ -18,7 +18,7 @@ public class User {
         this.dob = dob;
         this.gender = gender;
         this.type = type;
-        this.register = register;
+//        this.register = register;
         this.uid=uid;
     }
 
@@ -98,11 +98,11 @@ public class User {
         this.type = type;
     }
 
-    public Button getRegister() {
-        return register;
-    }
-
-    public void setRegister(Button register) {
-        this.register = register;
-    }
+//    public Button getRegister() {
+//        return register;
+//    }
+//
+//    public void setRegister(Button register) {
+//        this.register = register;
+//    }
 }

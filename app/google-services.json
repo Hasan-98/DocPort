@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "384291725650",
+    "firebase_url": "https://docport-8bce8-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "docport-8bce8",
     "storage_bucket": "docport-8bce8.appspot.com"
   },
@@ -19,6 +20,14 @@
           "android_info": {
             "package_name": "com.example.docport",
             "certificate_hash": "48720b749780460ecfbc7d7a3b4730afc6b24ab3"
+          }
+        },
+        {
+          "client_id": "384291725650-pnklpme0sehf596o5oce75dvvdgp42hn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docport",
+            "certificate_hash": "37820873279595d5ffb12a7aa4f01a5728c78f9e"
           }
         },
         {
