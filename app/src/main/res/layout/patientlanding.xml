@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.appcompat.widget.LinearLayoutCompat -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/p_landing_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Hi User !"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="25sp"
+        android:paddingTop="30sp"
+        android:paddingBottom="20sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/n_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:scaleX="0.6"
+
+        android:scaleY="0.6"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60sp"
+        android:src="@drawable/bell_icon_foreground" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="25sp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/gear_icon_foreground" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p_landing_user"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#29292A"
+        android:text="You have no on-going correspondence"
+        android:textAlignment="center"
+        android:textColor="#C3C7F6"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:textSize="15sp"
+        android:id="@+id/n_ribbon"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/n_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_ribbon"
+        android:layout_marginTop="15sp"
+        android:background="#009688"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Make a Booking"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n_bell"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="9dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/bookmark_icon_foreground" />
+
+    <TextView
+        android:id="@+id/n_search_meds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_booking"
+        android:layout_marginTop="25sp"
+        android:background="#009688"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Search Medicines"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n_bell"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="68dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/folder_icon_foreground" />
+
+    <TextView
+        android:id="@+id/n_search_treats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_search_meds"
+        android:layout_marginTop="25sp"
+        android:background="#009688"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Search Treatments"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n_search_meds"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="-8dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/search_icon_foreground" />
+
+    <TextView
+        android:id="@+id/n_med_hist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_search_treats"
+        android:layout_marginTop="25sp"
+        android:background="#009688"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Medical History"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n_search_treats"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="-8dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/history_icon_foreground" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_med_hist"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="10sp"
+        android:background="#29292A"
+        android:text="Tip of the Day !\nThis is sample tip, displayed as \nprototype text. An apple a day keeps the doctor away !"
+        android:textColor="#C3C7F6"
+        android:paddingTop="5sp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:paddingBottom="5sp"
+        android:textSize="15sp"
+        android:id="@+id/tip"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tip"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:background="#29292A"
+        android:text="Excercise of the Day !\nThis is sample tip, displayed as prototype text. An apple a day keeps the doctor away !"
+        android:textColor="#C3C7F6"
+        android:paddingTop="5sp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:paddingBottom="5sp"
+        android:textSize="15sp"
+        android:id="@+id/excercise"
+        />
+
+    <ImageView
+        android:id="@+id/n_sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun_icon_foreground"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_below="@id/n_med_hist"
+        android:layout_marginLeft="310sp"
+        android:layout_marginTop="5sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bolt_icon_foreground"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_below="@id/n_sun"
+        android:layout_marginLeft="310sp"
+        android:layout_marginTop="25sp" />
+
+</RelativeLayout>

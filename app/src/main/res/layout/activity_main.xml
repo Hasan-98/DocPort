@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"/>-->
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="175sp">
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:drawableLeft="@drawable/user"
+        android:id="@+id/login_uname"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#D9D9D9"
+        android:layout_marginTop="2sp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginRight="45sp"
+        android:layout_marginBottom="60dp"
+        android:hint="Username"
+        />
+    <EditText
+        android:drawableLeft="@drawable/lock"
+        android:id="@+id/login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#D9D9D9"
+        android:layout_marginTop="2sp"
+        android:layout_marginLeft="45sp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginRight="45sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/forgot_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:gravity="center_horizontal"
+        android:clickable="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="125sp"
+        android:layout_marginRight="125sp"
+
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
