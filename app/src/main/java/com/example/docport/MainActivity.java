@@ -8,6 +8,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
     Button createAccount , Login;
     @Override
@@ -17,10 +20,17 @@ public class MainActivity extends AppCompatActivity {
 
         createAccount = (Button)findViewById(R.id.createAccount);
 
+        FirebaseUser mUsr = FirebaseAuth.getInstance().getCurrentUser();
+        if (mUsr!=null){
+            startActivity(new Intent(MainActivity.this, Landing.class));
+        }
+//        if (i==null){
+//
+//        }
         createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent i = new Intent(MainActivity.this , userRegistration.class);
+               Intent i = new Intent(MainActivity.this , RegistrationActivity.class);
                startActivity(i);
             }
         });
@@ -28,11 +38,13 @@ public class MainActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ii = new Intent(MainActivity.this , Landing.class );
+                Intent ii = new Intent(MainActivity.this , Login.class );
                 startActivity(ii);
             }
         });
     }
+
+
 
 
 }

@@ -11,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistrationActivity">
+        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Booking"></activity>
+        <activity android:name=".History"></activity>
+        <activity android:name=".patientnotification" />
+        <activity android:name=".docnotification_area" />
+        <activity android:name=".Landing"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".Booking"></activity>
-        <activity android:name=".History"></activity>
-        <activity android:name=".patientnotification" />
-        <activity android:name=".docnotification_area" />
-        <activity android:name=".MainActivity">
         </activity>
     </application>
 

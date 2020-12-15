@@ -31,6 +31,7 @@
     </RelativeLayout>
 
     <EditText
+        android:text="tsalman242512@gmail.com"
         android:drawableLeft="@drawable/user"
         android:id="@+id/login_uname"
         android:layout_width="match_parent"
@@ -43,6 +44,7 @@
         android:hint="Username"
         />
     <EditText
+        android:text="12345678"
         android:drawableLeft="@drawable/lock"
         android:id="@+id/login_pwd"
         android:layout_width="match_parent"
@@ -66,17 +68,17 @@
         android:clickable="true" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="125sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="125sp"
+        android:gravity="center_horizontal"
         android:text="Submit"
         android:textAllCaps="false"
-        android:textSize="20sp"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="25sp"
-        android:layout_marginLeft="125sp"
-        android:layout_marginRight="125sp"
 
-        />
+        android:textSize="20sp" />
 
 
 
